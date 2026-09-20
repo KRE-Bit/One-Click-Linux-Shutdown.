@@ -1,0 +1,10 @@
+@echo off
+color 0c
+echo ==========================================
+echo      APAGANDO EL SERVIDOR LINUX
+echo ==========================================
+:: INSTRUCCIONES: Reemplaza 'TU_USUARIO' y 'TU_IP' con tus datos reales.
+ssh -t TU_USUARIO@TU_IP "sudo shutdown -h now"
+echo.
+echo Comando de apagado enviado con exito.
+pause
